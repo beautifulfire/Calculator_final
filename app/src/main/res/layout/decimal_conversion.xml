@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="410dp"
+        android:layout_height="80dp"
+        android:focusable="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="在此输入要转换的数字" />
+
+    <GridLayout
+        android:layout_width="412dp"
+        android:layout_height="120dp">
+
+        <Button
+            android:id="@+id/button41"
+            android:layout_width="103dp"
+            android:layout_height="70dp"
+            android:text="二进制" />
+
+        <Button
+            android:id="@+id/button42"
+            android:layout_width="103dp"
+            android:layout_height="70dp"
+            android:text="八进制" />
+
+        <Button
+            android:id="@+id/button43"
+            android:layout_width="103dp"
+            android:layout_height="70dp"
+            android:text="十进制" />
+
+        <Button
+            android:id="@+id/button44"
+            android:layout_width="103dp"
+            android:layout_height="70dp"
+            android:text="十六进制" />
+    </GridLayout>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="410dp"
+        android:layout_height="80dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="转换结果" />
+
+    <GridLayout
+        android:layout_width="412dp"
+        android:layout_height="120dp">
+
+        <Button
+            android:id="@+id/button45"
+            android:layout_width="103dp"
+            android:layout_height="70dp"
+            android:text="二进制" />
+
+        <Button
+            android:id="@+id/button46"
+            android:layout_width="103dp"
+            android:layout_height="70dp"
+            android:text="八进制" />
+
+        <Button
+            android:id="@+id/button47"
+            android:layout_width="103dp"
+            android:layout_height="70dp"
+            android:text="十进制" />
+
+        <Button
+            android:id="@+id/button48"
+            android:layout_width="103dp"
+            android:layout_height="70dp"
+            android:text="十六进制" />
+    </GridLayout>
+
+    <Button
+        android:id="@+id/button49"
+        android:layout_width="412dp"
+        android:layout_height="50dp"
+        android:text="返回" />
+
+</LinearLayout>
