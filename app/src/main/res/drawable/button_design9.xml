@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 点击时的背景 -->
+    <item android:state_pressed="true">
+        <shape android:state_pressed="true">
+            <solid android:color="#9933cc"/>
+        </shape>
+    </item>
+
+    <!-- 默认的背景 -->
+    <item>
+        <shape android:state_pressed="true">
+            <solid android:color="#9933ff"/>
+        </shape>
+    </item>
+</selector>

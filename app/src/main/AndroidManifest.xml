@@ -12,7 +12,6 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -20,6 +19,12 @@
             <intent-filter>
                 <action  android:name = "android.intent.action.DECIMAL"  />
                 <category android:name = "android.intent.category.DEFAULT"  />
+            </intent-filter>
+        </activity>
+        <activity android:name=".unit_conversion" >
+            <intent-filter>
+                <action  android:name = "android.intent.action.UNIT"  />
+                <category android:name = "android.intent.category.WORK"  />
             </intent-filter>
         </activity>
     </application>
